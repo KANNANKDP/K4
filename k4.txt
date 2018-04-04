@@ -1,0 +1,34 @@
+printf ( a );
+
+a=10;
+
+while ( a > 0 ){
+	printf (1234);
+	a=a-1;
+};
+
+a=5;
+
+while ( a <= 10 ){
+	printf {kannan};
+	a=a+1;
+};
+
+printf {kannan};
+
+a=10;
+
+if(a==2){
+	a=6;
+}
+else{
+	a=8;
+};
+
+if(a>5){
+	a=5;
+};
+
+printf ( a );
+
+bye;

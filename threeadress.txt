@@ -1,0 +1,49 @@
+t1 := 0;
+print t1;
+
+t1 := 10;
+ a := t1;
+
+t1 := 0;
+_LO : t2 := a > t1;
+if nz t2;
+t3 := 1234;
+print t3;
+t4 := 1;
+t5 := a - t4;
+goto _LO;
+
+t1 := 5;
+ a := t1;
+
+t1 := 10;
+_LO : t2 := a <= t1;
+if nz t2;
+t3 := kannan;
+print t3;
+t4 := 1;
+t5 := a + t4;
+goto _LO;
+
+t1 := kannan;
+print t1;
+
+t1 := 10;
+ a := t1;
+
+t1 := a == 2;
+ if z t1 goto _L0;
+t2 := 6;
+a := t2;
+_LO : else;
+t3 := 8;
+a := t3;
+
+t1 := a > 5;
+ if nz t1;
+t2 := 5;
+a := t2;
+
+t1 := 5;
+print t1;
+
